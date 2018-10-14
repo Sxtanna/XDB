@@ -13,9 +13,12 @@ repositories {
 }
 
 dependencies {
+    
     compile "org.jetbrains.kotlin:kotlin-reflect"
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-
+    
+    compile 'com.github.jhg023:SimpleNet:1.2.0'
+    
     compile "com.sxtanna.korm:Korm:+"
 }
 
