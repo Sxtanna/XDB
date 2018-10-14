@@ -1,7 +1,5 @@
 package com.xtannas.db
 
-class XDB(/*pass in the implementation*/) {
+import com.xtannas.db.base.XDBBase
 
-    // options and shit
-
-}
+class XDB(private val base: XDBBase) : XDBBase by base

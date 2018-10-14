@@ -5,14 +5,14 @@ import com.xtannas.db.data.XDBData
 import com.xtannas.db.data.XDBName
 import com.xtannas.db.impl.file.base.FileStore
 import com.xtannas.db.impl.file.impl.KormFileStore
-import com.xtannas.db.impl.live.XDBLiveBaseImpl
+import com.xtannas.db.impl.live.XDBLiveBase
 import java.io.File
 
 class XDBFileBase(val mainDir: File) : XDBBase {
 
     override val name = "File"
 
-    val cache = XDBLiveBaseImpl()
+    val cache = XDBLiveBase()
 
     val store: FileStore = KormFileStore(mainDir)
 

@@ -4,7 +4,7 @@ import com.xtannas.db.base.XDBBase
 import com.xtannas.db.data.XDBData
 import com.xtannas.db.data.XDBName
 
-class XDBLiveBaseImpl : XDBBase {
+class XDBLiveBase : XDBBase {
 
     override val name = "Live"
 
